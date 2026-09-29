@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "差异化评价指标库",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "评价管理人员",
+    "高校填报员",
+    "审计人员"
+  ],
+  "states": [
+    "草案",
+    "会签",
+    "生效",
+    "封存",
+    "更正"
+  ],
+  "invariants": [
+    "指标版本",
+    "差异化权重",
+    "结果封存",
+    "迟到数据"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-002-A",
+      "actor": "评价管理人员",
+      "state": "草案"
+    },
+    {
+      "case_id": "09301-002-B",
+      "actor": "审计人员",
+      "state": "会签"
+    }
+  ],
+  "tags": [
+    "metric-versioning",
+    "classified-evaluation"
+  ]
+}

@@ -1,6 +1,6 @@
 [project]
 name = "domain-contract-09301-002"
 version = "0.1.0"
-description = "差异化评价指标库的领域约定与校验工具"
+description = "差异化评价指标库的领域约定、事件溯源后端与校验工具"
 requires-python = ">=3.11"
 dependencies = []
